@@ -1,0 +1,140 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+@import "react-datepicker/dist/react-datepicker.css";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttonshine {
+  position: relative;
+  overflow: hidden; /* Ensures shine effect stays within the button */
+}
+
+.buttonshine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150px; /* Start shine effect outside the button */
+  width: 100px; /* Width of the shine effect */
+  height: 100%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.908) 50%,
+    rgba(255, 255, 255, 0) 70%
+  );
+
+  opacity: 0.6;
+  transform: skewX(-20deg); /* Add a diagonal shine */
+  animation: shine 2.5s ease-out infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -150px; /* Start outside */
+  }
+  100% {
+    left: 100%; /* Move completely across */
+  }
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.three-line-limit {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.switch {
+  --secondary-container: #7d3800;
+  --primary: white;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.4em;
+  height: 1.5em;
+}
+
+.switch input {
+  display: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  transition: 0.2s;
+  border-radius: 30px;
+  border: 1px solid #7d3800;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1em;
+  width: 1em;
+  border-radius: 20px;
+  left: 0.2em;
+  bottom: 0.2em;
+  background-color: #7d3800;
+  transition: 0.4s;
+}
+
+input:checked + .slider::before {
+  background-color: var(--primary);
+}
+
+input:checked + .slider {
+  background-color: var(--secondary-container);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--secondary-container);
+}
+
+input:checked + .slider:before {
+  transform: translateX(1.9em);
+}
+
+.ql-toolbar .ql-stroke {
+  stroke: black; /* Change icon strokes to black */
+}
+
+.ql-toolbar .ql-fill {
+  fill: black; /* Change icon fills to black */
+}
+
+.ql-toolbar .ql-picker {
+  color: black; /* Change dropdown text color */
+}
+
+.ql-toolbar .ql-picker-label {
+  color: black; /* Dropdown labels */
+}
+
+.ql-toolbar .ql-picker-options {
+  background-color: white; /* Dropdown background color */
+  color: black; /* Dropdown options color */
+}
+
+.ql-toolbar .ql-picker-item {
+  color: black; /* Picker items */
+}
