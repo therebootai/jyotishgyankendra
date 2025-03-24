@@ -1,3 +1,4 @@
+"use server";
 import SubBanner from "@/components/global/SubBanner";
 import MainWebSite from "@/templates/MainWebsite";
 import Image from "next/image";

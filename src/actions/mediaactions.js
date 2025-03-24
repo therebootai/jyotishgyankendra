@@ -29,6 +29,8 @@ export async function addMedia(
     );
     if (response.status === 200) {
       revalidatePath("/admin/media");
+      revalidatePath("/photo-gallery");
+      revalidatePath("/video-gallery");
     }
     return response.data;
   } catch (error) {
@@ -55,6 +57,8 @@ export async function deleteMedia(mediaId) {
     );
     if (response.status === 200) {
       revalidatePath("/admin/media");
+      revalidatePath("/photo-gallery");
+      revalidatePath("/video-gallery");
     }
   } catch (error) {
     console.error("Error deleting media:", error);
@@ -80,6 +84,8 @@ export async function updateMedia(mediaId, medianame, mediaImage, mediaVideo) {
     );
     if (response.status === 200) {
       revalidatePath("/admin/media");
+      revalidatePath("/photo-gallery");
+      revalidatePath("/video-gallery");
     }
   } catch (error) {
     console.error("Error updating media:", error);

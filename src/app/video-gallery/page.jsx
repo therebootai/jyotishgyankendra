@@ -1,3 +1,4 @@
+"use server"
 import SubBanner from "@/components/global/SubBanner";
 import VideoSlideCard from "@/feature/VideoSlideCard";
 import MainWebSite from "@/templates/MainWebsite";

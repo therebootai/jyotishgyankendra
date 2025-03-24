@@ -14,6 +14,7 @@ export async function addSlider(sliderName, sliderImage) {
     );
     if (response.status === 200) {
       revalidatePath("/admin/slider");
+      revalidatePath("/");
     }
     return response.data;
   } catch (error) {
@@ -28,6 +29,7 @@ export async function deleteSlider(sliderId) {
     );
     if (response.status === 200) {
       revalidatePath("/admin/slider");
+      revalidatePath("/");
     }
   } catch (error) {
     console.error("Error deleting slider:", error);
@@ -53,6 +55,7 @@ export async function updateSlider(id, title, image, isActive) {
     );
     if (response.status === 200) {
       revalidatePath("/admin/slider");
+      revalidatePath("/");
     }
   } catch (error) {
     console.error("Error updating slider:", error);
