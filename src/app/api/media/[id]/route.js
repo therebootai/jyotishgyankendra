@@ -41,7 +41,10 @@ export async function DELETE(req, { params }) {
       return res.status(404).json({ message: "Media not found" });
     }
 
-    await deleteFile(media.mediaImage.publicId);
+    if (media.mediaImage?.publicId) {
+      await deleteFile(media.mediaImage.publicId);
+    }
+
     await Media.findByIdAndDelete(media._id);
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (error) {

@@ -46,7 +46,9 @@ const AdminSideHeader = ({ isMobileSidebarOpen, closeMobileSidebar }) => {
       } md:flex `}
     >
       <div className="flex justify-center items-center  border-b  h-[4rem]  border-[#00000033]">
-        <img src="/logo.svg" alt="Long Logo" className="h-[3.5rem] " />
+        <Link href="/">
+          <img src="/logo.svg" alt="Long Logo" className="h-[3.5rem] " />
+        </Link>
       </div>
       <div className="flex flex-col gap-4 mt-2">
         {sideheader.map((item, index) => (

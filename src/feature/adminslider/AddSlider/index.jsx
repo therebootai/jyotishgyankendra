@@ -19,6 +19,7 @@ export default function AddSlider() {
     }
     setLoading(false);
   };
+  
   return (
     <form onSubmit={handleSubmit} className="flex w-full flex-col gap-2 py-4">
       <label className="text-lg text-black font-medium">Slider</label>
