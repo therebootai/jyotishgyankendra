@@ -45,6 +45,10 @@ export async function DELETE(req, { params }) {
       await deleteFile(media.mediaImage.publicId);
     }
 
+    if (media.mediaVideoThumb?.publicId) {
+      await deleteFile(media.mediaVideoThumb.publicId);
+    }
+
     await Media.findByIdAndDelete(media._id);
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (error) {
