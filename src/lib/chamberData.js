@@ -19,7 +19,7 @@ const chambers = [
     href: "/chambers/jalpaiguri-chamber",
     imgsrc: "/chambers/2.jpg",
     maplink:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4271.574506898449!2d88.7123151!3d26.5292459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4799966c5fb6b%3A0x45f0c165c059fa70!2sSri%20Suvabrata%20Bharati%20(Gold%20Medalist)%20%7C%20Best%20Astrologer%20in%20Jalpaiguri!5e1!3m2!1sen!2sin!4v1736944861517!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d401877.9378606386!2d88.2457748!3d26.6173598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e4799b37ad8107%3A0x976235457c3b8272!2sMr.%20Suvabrata%20Bharati!5e1!3m2!1sen!2sin!4v1743601601076!5m2!1sen!2sin",
     chambertitile: "Best Astrologer in Jalpaiguri",
     pagedescription: `
       Have you been searching for the top <b>Astrologer in Jalpaiguri</b> who can help you understand your life's uncertainties? The planetary movements together with stellar motions create deep effects on personal destinies which a qualified astrologer helps people understand to face life's challenges with certainty. <br/> <br/>

@@ -36,6 +36,10 @@ export async function generateMetadata({ params }) {
       "Best Astrologer in Gangtok",
       "Best Astrologer in Cooch Behar",
     ],
+    openGraph: {
+      title: data.metaTitle,
+      description: data.metaDescription,
+    },
   };
 }
 

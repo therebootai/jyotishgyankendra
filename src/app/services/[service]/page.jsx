@@ -29,6 +29,10 @@ export async function generateMetadata({ params }) {
   return {
     title: data.metaTitle,
     description: data.metaDescription,
+    openGraph: {
+      title: data.metaTitle,
+      description: data.metaDescription,
+    },
   };
 }
 export default async function ServiceDetailPage({ params }) {
