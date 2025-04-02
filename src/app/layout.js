@@ -24,6 +24,13 @@ export const metadata = {
       url: `${process.env.API_URI}/logo.svg`,
     },
   },
+  keywords: [
+    "Best Astrologer in Siliguri",
+    "Best Astrologer in Jalpaiguri",
+    "Best Astrologer in Darjeeling",
+    "Best Astrologer in Gangtok",
+    "Best Astrologer in Cooch Behar",
+  ],
 };
 
 export default function RootLayout({ children }) {
