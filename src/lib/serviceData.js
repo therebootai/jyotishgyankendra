@@ -81,7 +81,7 @@ const services = [
     pagedescription: `
       The mesmerizing world of tarot will be introduced to you by Sri Suvabrata Bharati, with personalized tarot card readings to help you understand your life better. It does not matter whether you are lost in life, at a career crossroads, or wondering about your life's path - tarot can help. <br/> <br/>
       In the tarot process, each session is individual, the answers are given depending on the questions, as well as detailed descriptions and recommendations for further actions. By using his knowledge of tarot symbols and his intuition, Sri Suvabarta Bharti assists you in finding solutions for the unknown and making the right choices in life. <br/> <br/>
-      You can schedule your tarot reading now by contacting us at +91 70017 90055 or writing to jyotishkendra@gmail.com Come to Siliguri and explore yourself!
+      You can schedule your tarot reading now by contacting us at +91 70767 15202 or writing to jyotishkendra@gmail.com Come to Siliguri and explore yourself!
       `,
     metaTitle: "Tarot Services in jalpaiguri - Jyotish Gyan kendra",
     metaDescription:
