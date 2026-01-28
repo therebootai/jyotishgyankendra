@@ -23,8 +23,8 @@ const contact = {
     <ul className="flex flex-col text-sm gap-3 lg:text-xs xlg:text-base leading-7 lg:leading-10 font-medium text-white">
       <li className="inline-flex gap-2 items-center">
         <FaPhoneVolume />{" "}
-        <Link href="tel:917001790055" className="inline">
-          +91 70017 90055
+        <Link href="tel:+917076715202" className="inline">
+          +91 7076715202
         </Link>
         ,
         <Link href="tel:919474323694" className="inline">
