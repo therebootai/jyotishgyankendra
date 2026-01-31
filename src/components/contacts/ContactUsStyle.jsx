@@ -31,8 +31,8 @@ const ContactUsStyle = () => {
           logo: <FaPhoneVolume className="size-5 mt-1" />,
           details: (
             <div className="flex gap-1">
-              <Link href="tel:917001790055" className="inline">
-                +91 70017 90055
+              <Link href="tel:917076715202" className="inline">
+                +91 70767 15202
               </Link>
               ,
               <Link href="tel:919474323694" className="inline">
@@ -72,8 +72,8 @@ const ContactUsStyle = () => {
           logo: <FaPhoneVolume className="size-5 mt-1" />,
           details: (
             <div className="flex gap-1">
-              <Link href="tel:917001790055" className="inline">
-                +91 70017 90055
+              <Link href="tel:917076715202" className="inline">
+                +91  70767 15202
               </Link>
               ,
               <Link href="tel:919474323694" className="inline">
